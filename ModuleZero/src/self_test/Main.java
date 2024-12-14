@@ -2,11 +2,11 @@ package self_test;
 
 public class Main {
     public static void main(String[] args) {
-        Sum summaryObj = new Sum(9,10);
-        String message = "Hello, apprentice.";
+        Sum summaryObj = new Sum(10,10);
+        String message = "Hello, my young apprentice.";
         System.out.printf("%s%n", message);
+        summaryObj.summary(1, 2);
         summaryObj.summary();
-        summaryObj.summary(101, 202);
         System.out.println("End.");
     }
 }

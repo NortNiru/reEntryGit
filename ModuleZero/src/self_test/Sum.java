@@ -7,9 +7,9 @@ public class Sum {
         this.termX = termX;
         this.termY = termY;
     }
-    public void summary(int termX, int termY) {
-        int result = termX + termY;
-        System.out.println("This is a Sum acquired with method " + result + '.');
+    public void summary(int addX, int addY) {
+        int result = addX + addY;
+        System.out.println("This is a Sum acquired with method: " + result + '.');
     }
     public void summary() {
         int result = this.termX + this.termY;
