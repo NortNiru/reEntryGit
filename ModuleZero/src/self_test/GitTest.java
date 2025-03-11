@@ -6,7 +6,8 @@ public class GitTest {
     }
     public static void printI() {
         for(int i = 1; i <= 10; i++) {
-            System.out.printf("this is I value: %d%n", i);
+            System.out.printf("T" +
+                    "his is I value: %d%n", i);
         }
     }
 }
