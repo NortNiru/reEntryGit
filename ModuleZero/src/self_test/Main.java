@@ -1,6 +1,6 @@
 package self_test;
 
-public class Main {
+class Main {
     public static void main(String[] args) {
         Sum summaryObj = new Sum(10,11);
         String message = "Hello, my young apprentice.";
